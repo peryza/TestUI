@@ -20,7 +20,5 @@ public class GameTest extends BaseTest {
         var resultActual = gamePage.getValueLabel();
         Assert.assertEquals(resultExpected,resultActual);
 
-
-        int a = 0;
     }
 }

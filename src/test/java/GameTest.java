@@ -12,7 +12,6 @@ public class GameTest extends BaseTest {
         var resultExpected = "string: Not a number!";
         GamePage gamePage = new GamePage();
         gamePage.openWebSite(BASE_URL);
-        WebDriver driver = new ChromeDriver();
         gamePage.setBuild("Demo");
         gamePage.clickButtonRTD();
         gamePage.setInputNum("string");

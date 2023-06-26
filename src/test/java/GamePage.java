@@ -32,11 +32,6 @@ public class GamePage {
         return label.getText();
     }
 
-    public void scrollDown(WebDriver driver) {
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
-        jse.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-    }
-
 
 
 }

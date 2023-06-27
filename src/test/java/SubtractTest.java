@@ -1,7 +1,5 @@
 import org.junit.Assert;
 import org.junit.Test;
-
-
 public class SubtractTest extends BaseTest{
     private final static String BASE_URL="https://testsheepnz.github.io/BasicCalculator.html";
     @Test
@@ -29,5 +27,4 @@ public class SubtractTest extends BaseTest{
         var resultActual = mainPage.getInputAnswer();
         Assert.assertEquals(resultExpected,resultActual);
     }
-
 }

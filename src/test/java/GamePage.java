@@ -1,7 +1,6 @@
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import static com.codeborne.selenide.Selenide.$x;
-
 public class GamePage {
     private final SelenideElement selectBuildNum = $x("//select[@name='buildNumber']");
     private final SelenideElement ButtonRTD = $x("//input[@value='Roll the dice']");
@@ -26,8 +25,5 @@ public class GamePage {
     public String getValueLabel(){
         return label.getText();
     }
-
-
-
 }
 

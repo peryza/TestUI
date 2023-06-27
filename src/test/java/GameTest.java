@@ -1,7 +1,5 @@
 import org.junit.Assert;
 import org.junit.Test;
-
-
 public class GameTest extends BaseTest {
     private final static String BASE_URL="https://testsheepnz.github.io/random-number.html";
     @Test

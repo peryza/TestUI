@@ -29,7 +29,4 @@ public class MainPage {
     public String getInputAnswer(){
         return inputAnswer.getValue();
     }
-
-
-
 }

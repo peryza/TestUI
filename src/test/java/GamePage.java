@@ -1,9 +1,5 @@
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-
 import static com.codeborne.selenide.Selenide.$x;
 
 public class GamePage {
@@ -17,7 +13,6 @@ public class GamePage {
     }
     public void setBuild(String text){
         selectBuildNum.selectOptionContainingText(text);
-        selectBuildNum.sendKeys(Keys.PAGE_DOWN);
     }
     public void clickButtonRTD(){
         ButtonRTD.click();

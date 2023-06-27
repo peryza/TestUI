@@ -1,14 +1,9 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
 
 public class SubtractTest extends BaseTest{
     private final static String BASE_URL="https://testsheepnz.github.io/BasicCalculator.html";
-
     @Test
     public void Subtract(){
         var resultExpected = "-1";
@@ -21,8 +16,6 @@ public class SubtractTest extends BaseTest{
         mainPage.clickOnButton();
         var resultActual = mainPage.getInputAnswer();
         Assert.assertEquals(resultExpected,resultActual);
-
-
     }
     @Test
     public void Concatenate(){
@@ -35,7 +28,6 @@ public class SubtractTest extends BaseTest{
         mainPage.clickOnButton();
         var resultActual = mainPage.getInputAnswer();
         Assert.assertEquals(resultExpected,resultActual);
-
     }
 
 }

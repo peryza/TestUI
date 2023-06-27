@@ -12,9 +12,7 @@ abstract public class BaseTest {
         Configuration.driverManagerEnabled = true;
         Configuration.browserSize = "1920*1080";
         Configuration.headless = false;
-
     }
-
     @Before
     public void init(){
         setUp();

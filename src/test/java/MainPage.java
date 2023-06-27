@@ -1,8 +1,6 @@
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-
 import static com.codeborne.selenide.Selenide.$x;
-
 public class MainPage {
     private final SelenideElement selectBuild = $x(" //select[@name='selectBuild']");
     private final SelenideElement inputNumOne = $x("//input[@name='number1']");
